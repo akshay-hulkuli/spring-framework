@@ -23,7 +23,7 @@ public class App02HelloWorldSpring {
             // But this works only when we have single bean of this type. otherwise we get No qualifying bean exception
             // This can be solved in 2 ways by making one of the bean as @Primary or using @Qualifier annotation(can't be used in this example)
             System.out.println(context.getBean(Address.class));
-            // IOC container == Bean factory == Application context -> which manages the bean creation and its life cycles.
+            // IOC container == Spring container ==> (Bean factory == Application context)(these are 2 types of Spring container) -> which manages the bean creation and its life cycles.
             Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
         }
     }
