@@ -37,3 +37,11 @@ class JavaBean implements Serializable {
         this.age = age;
     }
 }
+
+// any class that is maintained by spring are spring beans
+class SpringBean {
+    int id;
+    public void compute() {
+        System.out.println("Spring Bean");
+    }
+}
