@@ -1,7 +1,8 @@
-package com.akshay.springframework;
+package com.akshay.springframework.helloworld;
 
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Primary;
 
 
 record Person(String name, int age, Address address) {
@@ -45,6 +46,7 @@ public class HelloWorldConfigurationClass {
     }
 
     @Bean(name = "addressOfJack")
+    @Primary
     public Address address2() {
         return new Address("San Francisco", "CA", "CA", "USA");
     }
