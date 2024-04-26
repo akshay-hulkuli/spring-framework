@@ -1,11 +1,11 @@
-package com.akshay.springframework.game;
+package com.akshay.springframework.game03;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("com.akshay.springframework.game")
+@ComponentScan("com.akshay.springframework.game03")
 public class App04GamingLauncher {
     public static void main(String[] args) {
         try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(App04GamingLauncher.class)) {

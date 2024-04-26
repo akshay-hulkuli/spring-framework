@@ -1,4 +1,4 @@
-package com.akshay.springframework.helloworld;
+package com.akshay.springframework.helloworld02;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.akshay.springframework.game;
+package com.akshay.springframework.game03;
 
 public interface Game {
     public void up();

@@ -1,7 +1,7 @@
-package com.akshay.springframework.basic;
+package com.akshay.springframework.basic01;
 
-import com.akshay.springframework.game.Game;
-import com.akshay.springframework.game.GameRunner;
+import com.akshay.springframework.game03.Game;
+import com.akshay.springframework.game03.GameRunner;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App03GamingSpringBeans {

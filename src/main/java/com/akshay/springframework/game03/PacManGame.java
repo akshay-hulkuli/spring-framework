@@ -1,4 +1,4 @@
-package com.akshay.springframework.game;
+package com.akshay.springframework.game03;
 
 import org.springframework.stereotype.Component;
 

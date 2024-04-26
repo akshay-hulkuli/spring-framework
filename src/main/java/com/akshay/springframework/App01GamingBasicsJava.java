@@ -1,9 +1,9 @@
 package com.akshay.springframework;
 
-import com.akshay.springframework.game.GameRunner;
-import com.akshay.springframework.game.MarioGame;
-import com.akshay.springframework.game.PacManGame;
-import com.akshay.springframework.game.SuperContraGame;
+import com.akshay.springframework.game03.GameRunner;
+import com.akshay.springframework.game03.MarioGame;
+import com.akshay.springframework.game03.PacManGame;
+import com.akshay.springframework.game03.SuperContraGame;
 
 public class App01GamingBasicsJava {
     public static void main(String[] args) {

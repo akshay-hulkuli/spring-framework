@@ -1,6 +1,6 @@
-package com.akshay.springframework.basic;
+package com.akshay.springframework.basic01;
 
-import com.akshay.springframework.game.*;
+import com.akshay.springframework.game03.*;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
