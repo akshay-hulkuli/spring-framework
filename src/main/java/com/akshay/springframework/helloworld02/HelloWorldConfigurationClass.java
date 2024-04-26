@@ -42,7 +42,7 @@ public class HelloWorldConfigurationClass {
     // here spring auto wires the required beans for this method, since it is a bean method.
     @Bean
     public Person person3Parameters(String name, int age, Address address2) {
-        return new Person(name(), 24, new Address("London", "London", "London", "London"));
+        return new Person(name, age, address2);
     }
 
     @Bean(name = "addressOfJack")
