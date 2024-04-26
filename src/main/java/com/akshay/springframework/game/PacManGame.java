@@ -1,5 +1,8 @@
 package com.akshay.springframework.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PacManGame implements Game {
 
     @Override

@@ -1,6 +1,7 @@
-package com.akshay.springframework;
+package com.akshay.springframework.basic;
 
 import com.akshay.springframework.game.*;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -9,13 +10,13 @@ import org.springframework.context.annotation.Primary;
 public class GamingConfigurations {
 
     @Bean
-    public GameRunner gameRunner(Game game) {
+    public GameRunner gameRunner(@Qualifier("superContraGame") Game game) {
         return new GameRunner(game);
     }
 
     @Primary
     @Bean
-    public Game marioGame() {
+    public Game marioGameee() {
         return new MarioGame();
     }
 

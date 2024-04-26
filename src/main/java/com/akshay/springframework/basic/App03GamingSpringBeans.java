@@ -1,4 +1,4 @@
-package com.akshay.springframework;
+package com.akshay.springframework.basic;
 
 import com.akshay.springframework.game.Game;
 import com.akshay.springframework.game.GameRunner;
